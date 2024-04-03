@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Weather Check</title>
+    </head>
+    <body>
+        <div>
+            <h1>Weather Check</h1>
+            <h2>Search by Latitude or Longitude</h2>
+            <label for="lat-ipt">Latitude:</label>
+            <input type="number" id="lat-ipt" name="lat-ipt" >
+            <label for="lon-ipt">Longitude:</label>
+            <input type="number" id="lon-ipt" name="lon-ipt" >
+            <h2>Search by Zip code</h2>
+            <label for="zip-ipt">Zipcode:</label>
+            <input type="number" id="zip-ipt" name="zip-ipt" >
+            <h2>Search by city/state/country/</h2>
+            <label for="city-ipt">City:</label>
+            <input type="text" id="city-ipt" name="city-ipt" >
+            <label for="state-ipt">State:</label>
+            <input type="text" id="state-ipt" name="state-ipt" >
+            <label for="country-ipt">Country:</label>
+            <input type="text" id="country-ipt" name="country-ipt" >
+        </div>
+        <button id="search-btn">Search</button>
+        <div>
+            <h2>Weather Report</h2>
+            <div id="weather-report"></div>
+        </div>
+        <script src="Weather.js"></script>
+    </body>
+</html>
